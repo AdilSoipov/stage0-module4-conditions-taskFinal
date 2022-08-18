@@ -2,9 +2,9 @@ package school.mjc.stage0.conditions.finalTask;
 
 public class IntegerDivider {
     public void printCompletelyDivided(int dividend, int divider) {
-    int result = divident / divider;
+    int result = dividend / divider;
     
-    if(result * divider == divident){
+    if((result * divider) == dividend){
         System.out.println("can be divided completely");
     }
     else{
